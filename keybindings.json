@@ -1,0 +1,29 @@
+// Place your key bindings in this file to overwrite the defaults
+[{
+    "key": "alt+enter",
+    // was: editor.action.selectAllMatches
+    "command": "editor.action.quickFix",
+    "when": "editorTextFocus"
+},{
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.quickOpen"
+    //"when": "editorTextFocus"
+},
+{
+    "key": "alt+left",
+    "command": "workbench.action.navigateBack",
+    "when": "editorTextFocus"
+},{
+    "key": "ctrl+alt+enter",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus"
+},{
+    "key": "ctrl+t",
+    "command": "workbench.action.showAllSymbols"
+    //"when": "editorTextFocus"    
+}
+,{
+    "key": "alt+right",
+    "command": "workbench.action.navigateForward",
+    "when": "editorTextFocus"
+}]
